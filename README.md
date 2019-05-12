@@ -1,4 +1,4 @@
-# Docerized nginx with ssl domains
+# Dockerized nginx with ssl domains
 
 ### How to:
 
