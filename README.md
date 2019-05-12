@@ -8,8 +8,7 @@ Cerbot container will also automatically renew all certificates.
 ### How to:
 
  - Clone or download repository into your local directory
- - Create **A/AAAA** domain record  
+ - Create **A/AAAA** ```example.com``` and ```www.example.com``` records 
  - Run ```init.sh``` as sudo user
  - Run ```init-domain.sh %user_domain% %user_email%``` for each domain
  - Run ```run.sh```
-
