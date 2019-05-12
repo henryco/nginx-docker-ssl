@@ -1,4 +1,5 @@
-# Dockerized nginx with ssl domains
+# Dockerized nginx with ssl domains [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/henryco/nginx-domain-ssl/master/LICENSE)
+
 
 Useful scripts that will start fully configured ```nginx``` and ```certbot``` docker containers with your domains with SSL certificates.
 Cerbot container will also automatically renew all certificates.
