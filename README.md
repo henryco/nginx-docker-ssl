@@ -1,4 +1,4 @@
-# Dockerized nginx with ssl domains </br> [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/henryco/nginx-domain-ssl/master/LICENSE)
+# Dockerized nginx container with SSL in one click</br> [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/henryco/nginx-domain-ssl/master/LICENSE)
 
 
 Useful scripts that will start fully configured ```nginx``` and ```certbot``` docker containers with your domains with SSL certificates.
