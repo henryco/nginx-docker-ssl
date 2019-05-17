@@ -45,12 +45,12 @@ echo "    }" >> $FNAME
 echo "" >> $FNAME
 echo "    root /usr/share/nginx/html;" >> $FNAME
 echo "" >> $FNAME
-echo "    #location / {" >> $FNAME
-echo "    #    proxy_pass http://localhost:80; #PROXY DESTINATION" >> $FNAME
-echo "    #    proxy_set_header    Host                \$http_host;" >> $FNAME
-echo "    #    proxy_set_header    X-Real-IP           \$remote_addr;" >> $FNAME
-echo "    #    proxy_set_header    X-Forwarded-For     \$proxy_add_x_forwarded_for;" >> $FNAME
-echo "    #}" >> $FNAME
+echo "    \#location / {" >> $FNAME
+echo "    \#    proxy_pass http://localhost:80; \#PROXY DESTINATION" >> $FNAME
+echo "    \#    proxy_set_header    Host                \$http_host;" >> $FNAME
+echo "    \#    proxy_set_header    X-Real-IP           \$remote_addr;" >> $FNAME
+echo "    \#    proxy_set_header    X-Forwarded-For     \$proxy_add_x_forwarded_for;" >> $FNAME
+echo "    \#}" >> $FNAME
 echo "}" >> $FNAME
 
 cd $CUR
