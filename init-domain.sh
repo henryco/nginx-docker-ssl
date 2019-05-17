@@ -39,7 +39,7 @@ echo "    ssl_certificate_key /etc/letsencrypt/live/$DOMAIN/privkey.pem;" >> $FN
 echo "    include /etc/letsencrypt/options-ssl-nginx.conf;" >> $FNAME
 echo "    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;" >> $FNAME
 echo "" >> $FNAME
-echo "    if ($scheme = http) {" >> $FNAME
+echo "    if (\$scheme = http) {" >> $FNAME
 echo "        return 301 https://\$server_name\$request_uri;" >> $FNAME
 echo "    }" >> $FNAME
 echo "" >> $FNAME
